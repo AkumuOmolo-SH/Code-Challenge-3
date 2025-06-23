@@ -28,7 +28,7 @@ This project uses a local backend powered by a json-server and a frontend built 
 -(Advanced) Edit or delete existing posts
 
 
-#How to run the solutions
+**# How to run the solutions**
 Follow these steps to set up and run the project locally:
 
 1. Clone the repository:
@@ -40,8 +40,9 @@ github.com/AkumuOmolo-SH/Code-Challenge-3
 4. Open the Frontend (You can use Live Server in VS Code).
 5. The app will open in your browser.
 
-#Repository Structure
-///
+**#Repository Structure**
+
+//
 CODE-CHALLENGE-3/
 │
 ├── index.html
@@ -50,12 +51,12 @@ CODE-CHALLENGE-3/
 ├── src/
 │   └── index.js
 ├── db.json
-///
+//
 
-## Author
+**## Author**
 
 [Akumu Omolo](https://github.com/AkumuOmolo-SH)
 
-## License
+**## License**
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
