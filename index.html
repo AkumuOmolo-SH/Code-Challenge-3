@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Let's write something</h1>
+  
+  <div id = "blog-posts">
+   <h2>Blog Posts</h2>
+    <div id="post-list">
+       
+      <section id="post-list-layout"></section>
+    </div>
+  </div>
+
+    <div id="post-detail"></div>
+
+<div id="new-post-layout">
+<section id="Add-New-Post">
+<h2>Add New Post</h2>
+<form id="new-post-form">
+  <input type="text" id="title" placeholder="Title" required />
+  <textarea id="content" placeholder="Content" required></textarea>
+  <input type="text" id="author" placeholder="Author" required />
+  <button type="submit">Add Post</button>
+</form>
+</section>
+</div>
+
+<form id="edit-post-form" class="hidden">
+
+  <h4>Update Post Details</h4>
+
+  <label for="edit-title">Title:</label>
+  <input type="text" id="edit-title" name="title" class="p-2 border rounded-md w-full mb-2" />
+  
+  <label for="edit-content">Content:</label>
+  <textarea id="edit-content" name="content" rows="5" class="p-2 border rounded-md w-full mb-4"></textarea>
+  
+  <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Confirm changes</button>
+  <button type="button" id="cancel-edit" class="bg-gray-400 text-white px-4 py-2 rounded-md ml-2">Cancel</button>
+</form>
+
+     <script src="script.js"></script>
+</body>
+</html>

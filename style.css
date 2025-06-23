@@ -1,0 +1,112 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+h1, h2, h4 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: 1rem;
+  color: #3f3f3f;
+}
+
+h1 {
+  font-size: 3 rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+#blog-posts, #new-post-layout, #post-detail {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(145, 145, 145, 0.05);
+  
+}
+
+#blog-posts {
+cursor: pointer;
+}
+
+#post-list-layout > article {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+#post-list-layout > article:last-child {
+  border-bottom: none;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"], textarea {
+  font-family: 'Libre Baskerville', serif;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fefefe;
+  resize: vertical;
+}
+
+
+button {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #759df1;
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+button#cancel-edit {
+  background-color: #6b7280;
+}
+
+button#cancel-edit:hover {
+  background-color: #4b5563;
+}
+
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 3rem 10%;
+  }
+}
