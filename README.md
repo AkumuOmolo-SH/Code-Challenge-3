@@ -1,4 +1,4 @@
-# Code-Challenge-3
+*# Code-Challenge-3*
 
 This repository contains my solutions for Code Challenge 3. The goal of the challenge was to assess our understanding of JavaScript fundamentals such as: 
 
@@ -17,7 +17,7 @@ The challenge is an opportunity to practice problem-solving using JavaScript.
 
 All final solutions are organized and presented in this GitHub repository as part of the submission.
 
-# Description
+**# Description**
 
 A simple blog post management application that allows users to view, add, edit, and delete blog posts using a local JSON API. 
 This project uses a local backend powered by a json-server and a frontend built with HTML, CSS, and  JavaScript. The user can:
