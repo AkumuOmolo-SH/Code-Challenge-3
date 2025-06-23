@@ -51,8 +51,7 @@ github.com/AkumuOmolo-SH/Code-Challenge-3
 5. The app will open in your browser.
 
 **#Repository Structure**
-
-//
+```
 
 CODE-CHALLENGE-3/
 │
@@ -63,7 +62,7 @@ CODE-CHALLENGE-3/
 │   └── index.js
 ├── db.json
 
-//
+```
 
 **## Author**
 
